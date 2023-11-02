@@ -1,0 +1,24 @@
+@media (max-width: 69em) {
+  main {
+    grid-template-columns: 1fr;
+    height: unset;
+    padding: 5rem 0;
+    gap: 20rem;
+  }
+  .main-secondary-txt {
+    max-width: 35rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+  .main-primary-txt {
+    text-align: center;
+  }
+  .background-darker {
+    right: 69%;
+  }
+  .background-light {
+    left: 60%;
+    bottom: -49%;
+    padding: 30rem 10rem;
+  }
+}

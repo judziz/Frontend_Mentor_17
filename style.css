@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+/* ----------MAIN------------ */
+main {
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  padding: 0 20rem;
+  background-color: hsl(270, 20%, 96%);
+}
+
+/* ----------TEXT-BOX------------ */
+.main-txt-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main-primary-txt {
+  font-size: 3.8rem;
+  color: hsl(271, 36%, 24%);
+  font-weight: 500;
+}
+.main-secondary-txt {
+  font-size: 1.8rem;
+  color: hsla(268, 7%, 64%, 0.808);
+  font-weight: 400;
+  max-width: 50rem;
+}
+/* ----------PHONE------------ */
+.main-phone {
+  width: 35.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: hsl(270, 20%, 96%);
+  padding: 1.5rem 1rem;
+  border-radius: 0 0 4rem 4rem;
+}
+.chatbox-left-txt {
+  max-width: 18rem;
+  line-height: 1.5rem;
+  padding: 1rem 1.2rem;
+  border-radius: 1.1rem 1.1rem 1.1rem 0.4rem;
+  color: hsla(276, 55%, 52%, 0.696);
+  background-color: hsla(287, 79%, 44%, 0.062);
+  font-size: 1.1rem;
+}
+.chatbox-right-txt {
+  max-width: 18rem;
+  line-height: 1.5rem;
+  padding: 1rem 1.2rem;
+  border-radius: 1.1rem 1.1rem 0.4rem 1.1rem;
+  color: hsl(270, 7%, 64%);
+  background-color: white;
+  font-size: 1.1rem;
+}
+.chatbox-right-imgs {
+  display: flex;
+  gap: 1rem;
+}
+.chatbox-right-imgs img {
+  max-width: 6rem;
+  border-radius: 1rem;
+}
+.chatbox-left-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.chatbox-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.chatbox-left-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.price-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 26rem;
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  padding: 1.4rem 1rem;
+  border-radius: 1.4rem 1.4rem 1.4rem 0.4rem;
+  color: white;
+}
+.price-tag-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+.microphone {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.2rem solid hsl(289, 100%, 72%);
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5rem;
+  padding: 1rem;
+  max-width: 37.5rem;
+  box-shadow: 0 0 3rem rgba(128, 128, 128, 0.568);
+  z-index: 1;
+}
+input {
+  border: none;
+  border-radius: 100rem;
+  padding: 2rem 0 2rem 4rem;
+  width: 100%;
+}
+.phone-input {
+  position: relative;
+}
+.arrow {
+  width: 4rem;
+  height: 4rem;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  right: 2%;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+.phone-header {
+  background-image: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  padding: 5rem 2rem 1.5rem 2rem;
+  border-radius: 4rem 4rem 0.3rem 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.phone-header img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50rem;
+  border: 0.2rem solid white;
+}
+.phone-header svg:hover {
+  cursor: pointer;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-txt {
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.profile-txt p {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.707);
+}
+.notch {
+  padding: 1.2rem 10rem;
+  position: absolute;
+  background-color: white;
+  border-radius: 0 0 2rem 2rem;
+  top: 0%;
+  right: 21%;
+}
+/* ----------------BACKGROUND-COLOR-------------- */
+.background-darker {
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  padding: 40rem 35rem;
+  position: absolute;
+  z-index: 1;
+  border-radius: 0 0 100rem 100rem;
+  right: 75%;
+}
+.background-light {
+  position: absolute;
+  background-image: linear-gradient(
+    hsla(293, 100%, 63%, 0.041),
+    hsla(293, 100%, 63%, 0.041)
+  );
+  padding: 40rem 21rem;
+  border-radius: 50rem 0 0 0;
+  left: 75%;
+  bottom: 0;
+  padding: 40rem 21rem;
+}
