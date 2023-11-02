@@ -1,9 +1,9 @@
-# Second assignement from Frontend Mentor.
+# 17th assignement from Frontend Mentor.
 
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY)
-[Vercel Link - Desktop version](https://frontend-mentor-03.vercel.app/)
+[Vercel Link - Desktop version](https://frontend-mentor-17-pi.vercel.app/)
 
 ---
 
